@@ -1,12 +1,13 @@
-﻿@{
+﻿@model ContatoModel
+@{
     ViewData["Title"] = "Confirmação de apagar o contato";
 }
 
 <div class="text-center">
-    <h1>Realmente deseja apagar o contato ? (Nome do contato)</h1>
+    <h1>Realmente deseja apagar o contato (Model.Nome)? </h1>
 </div>
 
 <div>
     <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="index">Cancelar</a>
-    <a class="btn btn-danger" role="button" asp-controller="Contato" asp-action="Apagar">Confirmar</a>
+    <a class="btn btn-danger" role="button" asp-controller="Contato" asp-action="Apagar" asp-route-id="@Model.Id" >Confirmar</a>
 </div>
