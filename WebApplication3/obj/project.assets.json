@@ -2603,19 +2603,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\andrey.panegalli\\.nuget\\packages\\": {}
+    "C:\\Users\\Andrey\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andrey.panegalli\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+      "projectUniqueName": "C:\\Users\\Andrey\\Source\\Repos\\CadastroContato\\WebApplication3\\WebApplication3.csproj",
       "projectName": "WebApplication3",
-      "projectPath": "C:\\Users\\andrey.panegalli\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
-      "packagesPath": "C:\\Users\\andrey.panegalli\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andrey.panegalli\\source\\repos\\WebApplication3\\WebApplication3\\obj\\",
+      "projectPath": "C:\\Users\\Andrey\\Source\\Repos\\CadastroContato\\WebApplication3\\WebApplication3.csproj",
+      "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Andrey\\Source\\Repos\\CadastroContato\\WebApplication3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andrey.panegalli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

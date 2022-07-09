@@ -12,12 +12,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddEntityFrameworkSqlServer()
-                .AddDbContext<BancoContext>(o => o.UseSqlServer("Data Source=ExpensiveControl.db"));
-// .AddDbContext<BancoContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
+                .AddDbContext<BancoContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("DataBase")));
+
 builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
 
+//.AddDbContext<BancoContext>(o => o.UseSqlServer("Data Source=ExpensiveControl.db"));
 //Informação que estava no appsettings.json
 // "DataBase": "Server=./;Database=DB_SistemaContatos;User Id=sa;Password="
+//"DataBase": "Data Source=ExpensiveControl.db"
+
 
 
 var app = builder.Build();
