@@ -16,10 +16,12 @@ builder.Services.AddEntityFrameworkSqlServer()
 
 builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
 
-//.AddDbContext<BancoContext>(o => o.UseSqlServer("Data Source=ExpensiveControl.db"));
 //Informação que estava no appsettings.json
-// "DataBase": "Server=./;Database=DB_SistemaContatos;User Id=sa;Password="
-//"DataBase": "Data Source=ExpensiveControl.db"
+// Para trocar o banco de dados só ir no appsettings.json e mudar as informações da Database.
+
+// Para o banco de dados funcionar voce deve fazer a seguinte forma
+// Colocar rodar no console nuget packages o seguinte comando: Add-Migration CriandoTabelaContatos -Context BancoContext
+// Depois disso você roda esse outro comando aqui: Update-Database -Context BancoContext
 
 
 
